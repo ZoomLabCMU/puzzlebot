@@ -1,6 +1,5 @@
 import numpy as np
 import quadprog 
-from planner import Planner
 from utils import Utils
 
 class Controller:
