@@ -50,6 +50,7 @@ class HardwareWrap:
         N = self.N
         tcp_com = TCPBridge(N)
         tcp_com.start_listen()
+        rospy.on_shutdown(tcp_com.end)
         self.init_subscribers(tcp_com.robot_ips)
         self.robot = Robot(N, tcp_com.robot_ips)
         robot = self.robot
@@ -89,5 +90,6 @@ class HardwareWrap:
             tcp_com.send(vel)
             rospy.loginfo(robot.pose)
 
+        rospy.logwarn("System shutdown.")
         tcp_com.end()
 

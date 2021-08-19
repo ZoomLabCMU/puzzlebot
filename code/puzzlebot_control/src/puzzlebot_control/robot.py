@@ -204,8 +204,8 @@ class Robot:
 
     def keyboard_input_lr(self):
         du = np.zeros([2, self.N])
-        txt = raw_input("Input cmd_vel in format [left right]: ")
         try:
+            txt = raw_input("Input cmd_vel in format [left right]: ")
             txt = txt.split()
             [l, r] = [int(tx) for tx in txt]
             du[0, :] = l

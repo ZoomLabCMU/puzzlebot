@@ -94,5 +94,6 @@ class TCPBridge:
             self.dts[i] = self.threads[i].dt
 
     def end(self):
+        print 'Connection closed.'
         self.s.close()
 
