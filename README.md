@@ -3,15 +3,17 @@ Sha Yi, Zeynep Temel, Katia Sycara
 
 <img src="/img/cross_gap_demo.jpg" width="80%">
 
-We present a guide to make and run our PuzzleBots.  
+Link to our [video](https://www.youtube.com/watch?v=QP3eMZXLSw4). We present a guide to make and run our PuzzleBots.  
 
 If you find our work useful, please consider citing our paper:  
 ```
 @inproceedings{yi2021puzzlebots,
   title={PuzzleBots: Physical Coupling of Robot Swarms},
-  author={Yi, Sha and Temel, Zeynep, and Sycara, Katia},
-  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
-  year={2021}
+  author={Yi, Sha and Temel, Zeynep and Sycara, Katia},
+  booktitle={2021 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={8742--8748},
+  year={2021},
+  organization={IEEE}
 }
 ```
 
