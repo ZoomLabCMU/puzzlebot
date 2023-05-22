@@ -3,7 +3,7 @@ Sha Yi, Zeynep Temel, Katia Sycara
 
 <img src="/img/cross_gap_demo.jpg" width="80%">
 
-Link to our [video](https://www.youtube.com/watch?v=QP3eMZXLSw4). We present a guide to make and run our PuzzleBots.  
+Link to our [video](https://www.youtube.com/watch?v=QP3eMZXLSw4). We present a guide to make and run our PuzzleBots. A newer version is available [here](https://github.com/ZoomLabCMU/puzzlebot_v2).  
 
 If you find our work useful, please consider citing our paper:  
 ```
